@@ -1,0 +1,1 @@
+salut j'ecris dans un fichier avec python !

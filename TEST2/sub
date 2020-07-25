@@ -1,0 +1,63 @@
+quest 2
+
+
+Écrivez une classe Fraction qui crée des objets initialisés avec deux nombres entiers
+ .num et .denom pour le numérateur et le dénominateur. Ajoutez une méthode .affiche() qui
+ affiche une représentation de la fraction. Ajoutez des méthodes spéciales pour pouvoir utiliser les
+ opérateurs +, -, *, /.
+ Pour réduire la fraction, vous pouvez employer la fonction math.gcd(a, b) du module math, qui
+ calcule le plus grand commun diviseur entre deux entiers a et b.
+
+Guide
+Exemple
+
+>>> f = Fraction(3, 4)
+
+>>> f.affiche()
+
+3/4
+
+>>> g = Fraction(1, 2)
+
+>>> g.affiche()
+
+1/2
+
+>>> r1 = f + g
+
+>>> r.affiche()
+
+5/4
+
+>>> r2 = f / g
+
+>>> r2.affiche()
+
+3/2
+
+
+
+quest 3
+
+Écrivez une classe CompteBancaire. Les objets sont initialisés avec le nom du titulaire et le solde. L’argument solde doit être facultatif et avoir une valeur prédéfinie zéro. Ajoutez
+ deux méthodes .depot(somme) et .retrait(somme) pour changer le solde. Ajoutez une méthode
+ .affiche() qui montre le solde courant.
+
+Guide
+Exemple
+
+>>> compte1 = CompteBancaire(’Dago’, 1000)
+
+>>> compte1.retrait(200)
+
+>>> compte1.affiche()
+
+800
+
+>>> compte2 = CompteBancaire(’Martialo’)
+
+>>> compte2.depot(500)
+
+>>> compte2.affiche()
+
+500

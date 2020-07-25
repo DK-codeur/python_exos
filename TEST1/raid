@@ -1,0 +1,178 @@
+1
+Write a function that returns the sum of two numbers.
+
+Guide
+Example
+
+For param1 = 1 and param2 = 2, the output should be add(param1, param2) = 3.
+
+Input/Output
+
+[input] integer param1
+
+Guaranteed constraints:
+-100 ≤ param1 ≤ 1000.
+
+ 
+
+[input] integer param2
+
+Guaranteed constraints:
+-100 ≤ param2 ≤ 1000.
+
+ 
+
+[output] integer
+
+The sum of the two inputs.
+
+
+
+
+
+
+2
+Given a year, return the century it is in. The first century spans from the year 1 up to and including the year 100, the second - from the year 101 up to and including the year 200, etc.
+
+Guide
+Example
+
+For year = 1905, the output should be 
+centuryFromYear(year) = 20;
+
+For year = 1700, the output should be 
+centuryFromYear(year) = 17.
+
+ 
+
+Input/Output
+
+ 
+
+[input] integer year 
+
+A positive integer, designating the year.
+
+Guaranteed constraints:
+1 ≤ year ≤ 2005.
+
+ 
+
+[output] integer
+
+The number of the century the year is in.
+
+
+
+
+
+
+3
+Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.
+
+Guide
+Example
+
+For inputArray = [3, 6, -2, -5, 7, 3], the output should be 
+adjacentElementsProduct(inputArray) = 21.
+
+7 and 3 produce the largest product.
+
+ 
+
+For inputArray = [4, 1, 2, 3, 1, 5], the output should be 
+adjacentElementsProduct(inputArray) = 6.
+
+2 and 3 produce the largest product.
+
+Input/Output
+
+ 
+
+[input] array.integer inputArray 
+An array of integers containing at least two elements. 
+
+Guaranteed constraints: 
+2 ≤ inputArray.length ≤ 10, 
+-1000 ≤ inputArray[i] ≤ 1000.
+
+ 
+
+[output] integer <br > The largest product of adjacent elements.
+
+
+
+
+
+
+4
+Below we will define an n-interesting polygon. Your task is to find the area of a polygon for a given n.
+
+Guide
+A 1-interesting polygon is just a square with a side of length 1. An n-interesting polygon is obtained by taking the n - 1-interesting polygon and appending 1-interesting polygons to its rim, side by side. You can see the 1-, 2-, 3- and 4-interesting polygons in the picture below.
+[[[[[Image]]]]]
+
+Example
+
+ 
+
+For n = 2, the output should be 
+shapeArea(n) = 5;
+
+ 
+
+For n = 3, the output should be 
+shapeArea(n) = 13.
+
+ 
+
+Input/Output
+
+ 
+
+[input] integer n 
+Guaranteed constraints: 
+1 ≤ n < 104.
+
+ 
+
+[output] integer 
+The area of the n-interesting polygon.
+
+
+
+
+
+
+
+
+
+5
+Ratiorg got statues of different sizes as a present from CodeMaster for his birthday, each statue having an non-negative integer size. Since he likes to make things perfect, he wants to arrange them from smallest to largest so that each statue will be bigger than the previous one exactly by 1. He may need some additional statues to be able to accomplish that. Help him figure out the minimum number of additional statues needed.
+
+Guide
+Example
+
+For statues = [6, 2, 3, 8], the output should be 
+makeArrayConsecutive2(statues) = 3.
+
+Ratiorg needs statues of sizes 4, 5 and 7.
+
+Input/Output
+
+ 
+
+[input] array.integer statues
+An array of distinct non-negative integers. 
+
+Guaranteed constraints:
+1 ≤ statues.length ≤ 10,
+0 ≤ statues[i] ≤ 20.
+
+ 
+
+[output] integer
+The minimal number of statues that need to be added to existing statues such that it contains every integer size from an interval [L, R] (for some L, R) and no other sizes.
+
+
+
